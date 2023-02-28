@@ -1,0 +1,86 @@
+<header>
+	<h1>BaseObject</h1>
+</header>
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>protected EventTrigger _trigger</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected Collider _collider</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected Transform _initialParent</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected Quaternion _initialRotation</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected Vector3 _initialPosition</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected Vector3 _initialScale</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected bool _isInitialized</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public EventTrigger EventTrigger =&gt; _trigger</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public List&lt;Entry&gt; Triggers =&gt; _trigger.triggers</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Functions</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>protected virtual void Reset()</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected virtual void Start()</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public virtual void SetColliderActive(bool value)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public override void OnInitialize()</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public override void onRelease()</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public void AddListener(EventTriggerType type, UnityAction&lt;BaseEventData&gt; call)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public void StoreAsInitialValue()</td>
+		</tr>
+	</tbody>
+</table>

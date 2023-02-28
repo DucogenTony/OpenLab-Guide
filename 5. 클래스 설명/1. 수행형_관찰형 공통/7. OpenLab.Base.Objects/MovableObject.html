@@ -1,0 +1,71 @@
+<header>
+	<h1>MovableObject</h1>
+</header>
+<table>
+	<thead>
+		<tr>
+			<th>Variables</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>private BaseObject _targetObject</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private EventTrigger _targetTrigger</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private UnityEvent _onSuccessDrag</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private bool _isPointingTarget</td>
+		</tr>
+	</tbody>
+</table>
+
+<table>
+	<thead>
+		<tr>
+			<th>Functions</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>protected override void Reset()</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>public override void OnInitialize()</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>protected override void Start()</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private void AddEventListener(EventTrigger trigger, EventTriggerType type,
+				UnityAction&lt;BaseEventData&gt; call)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private void OnPointerExit(BaseEventData eventData)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private void OnPointerEnter(BaseEventData eventData)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private void OnEndDrag(BaseEventData eventData)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>private void OnBeginDrag(BaseEventData eventData)</td>
+		</tr>
+	</tbody>
+</table>
